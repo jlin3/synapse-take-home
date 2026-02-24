@@ -1,6 +1,6 @@
 import axios, { AxiosError } from 'axios';
 
-const API_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:8000/api';
+const API_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:8000';
 const API_TOKEN = process.env.EXPO_PUBLIC_API_TOKEN || '';
 
 const apiClient = axios.create({

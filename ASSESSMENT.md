@@ -48,7 +48,7 @@ Then write a brief architecture section in your PR/README explaining:
 
 All endpoints are pre-authenticated via the token in your `.env` file. The test server has several pre-seeded researcher accounts you can message.
 
-Base URL: configured via `EXPO_PUBLIC_API_URL` in your `.env`.
+Base URL: configured via `EXPO_PUBLIC_API_URL` in your `.env` (no `/api` prefix — routes are at the root).
 
 You've been given two tokens:
 - **User A** (`EXPO_PUBLIC_API_TOKEN`): Your primary test account
